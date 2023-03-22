@@ -1,0 +1,7 @@
+Def Const             100 nanoseconds - a.size = 0
+Cust Const         15086900 nanoseconds - b.size = 5458199
+Cp Assig             4210500 nanoseconds - a.size = 5458199
+Mv Assig        698800 nanoseconds - a.size = 5458199
+Cp Const            3404200 nanoseconds - c.size = 5458199
+Mv Const             236800 nanoseconds - d.size = 5458199
+Dest            1457600 nanoseconds

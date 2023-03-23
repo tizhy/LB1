@@ -23,9 +23,6 @@ int main(int argc, char* argv[])
 	auto begin = std::chrono::high_resolution_clock::now();
 	auto end = std::chrono::high_resolution_clock::now();
 
-	//TODO mod
-	std::string fileName = "C:/Users/Dell 5520/source/repos/LB1/test.txt";
-
 	{
 		begin = std::chrono::high_resolution_clock::now();
 		l1::Txt a;
@@ -36,9 +33,6 @@ int main(int argc, char* argv[])
 
 		begin = std::chrono::high_resolution_clock::now();
 		l1::Txt b(argv[1]);
-		//l1::Txt b(fileName.c_str());
-		//l1::Txt c;// = b;
-		//c = b;
 
 		end = std::chrono::high_resolution_clock::now();
 		ofs << "Cust Const  "
